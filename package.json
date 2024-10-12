@@ -1,0 +1,25 @@
+{
+  "name": "dbx-and-s3-upload-middleware",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MahmoudY3c/dbx-and-s3-upload-middleware.git",
+  "author": "Mahmoud Emad <120838824+MahmoudY3c@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "gulp": "^5.0.0",
+    "gulp-cli": "^3.0.0",
+    "gulp-nodemon": "^2.5.0",
+    "nodemon": "^3.1.7",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.670.0",
+    "@aws-sdk/lib-storage": "^3.670.0",
+    "@aws-sdk/s3-request-presigner": "^3.670.0",
+    "append-field": "^2.0.0",
+    "busboy": "^1.6.0",
+    "on-finished": "^2.4.1"
+  }
+}
